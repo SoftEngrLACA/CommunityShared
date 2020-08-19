@@ -1,4 +1,4 @@
-package com.wickcentral.ghsDataService;
+package com.wickcentral.test.ghsDataService;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
