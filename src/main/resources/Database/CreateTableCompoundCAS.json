@@ -1,0 +1,27 @@
+{
+	"TableName":"CompoundCAS",
+	"KeySchema":[
+			{
+				"AttributeName":"CompoundName",
+				"KeyType":"HASH"
+			},
+			{
+				"AttributeName":"CAS",
+				"KeyType":"RANGE"
+			}
+		],
+	"AttributeDefinitions":[
+			{
+				"AttributeName":"CompoundName",
+				"AttributeType":"S"
+			},
+			{
+				"AttributeName":"CAS",
+				"AttributeType":"S"
+			}
+		],
+	"ProvisionedThroughput":{
+		"ReadCapacityUnits":5,
+		"WriteCapacityUnits":5
+	}
+}
